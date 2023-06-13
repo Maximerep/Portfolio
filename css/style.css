@@ -1015,7 +1015,15 @@ height: 10%;
   background-color: #000;
 }
 
-
-
+h10 {
+  margin-bottom: 5px;
+  font-family: "Kurale";
+  cursor: default;
+  text-decoration: none;
+  color: rgb(255,127,80); /* Texte en orange */
+}
+.h10-spacer-under {
+  margin-bottom: 15px;
+}
 
 }/*# sourceMappingURL=style.css.map */
