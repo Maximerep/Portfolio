@@ -662,6 +662,7 @@ li h3 {
   transform: rotateY(180deg);
   display: flex;
   flex-direction: column;
+  background-color: #f0f0f0;
 }
 .flip-content > div {
   font-size: 13px;
