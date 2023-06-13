@@ -573,7 +573,7 @@ li h3 {
 }
 .portfolioCard:hover .portfolioCard-content {
   transform: rotateY(180deg);
-  background-color: #f0f0f0
+  background-color: rgba(240, 240, 240, 0.8)
 }
 
 .portfolioCard-header {
