@@ -1,13 +1,19 @@
 // Définir les mots-clés et leur fréquence
 var words = [
-    { text: "Cylcisme", weight: 10 },
+    { text: "Cyclisme", weight: 10 },
     { text: "Trail", weight: 8 },
     { text: "Badminton", weight: 9 },
     { text: "Marche", weight: 7 },
     { text: "Les échecs", weight: 7 },
     { text: "Lecture", weight: 4 },
     { text: "Sortir avec des amis", weight: 8 },
-    { text: "Musique", weight: 6 }
+    { text: "Ecouter de la musique", weight: 6 },
+    { text: "", weight: 6 },
+    { text: "Découvrir des nouveaux paysages", weight: 7 },
+    { text: "Sport", weight: 9 },
+    { text: "Apprendre de nouvelles choses", weight: 6 },
+    { text: "cusine", weight: 3 },
+
 
     // Ajoutez plus de mots-clés avec leurs fréquences
   ];
