@@ -23,7 +23,7 @@ var words = [
     list: words.map(function(word) {
       return [word.text, word.weight];
     }),
-    gridSize: 15,
+    gridSize: 10,
     weightFactor: 5,
     fontFamily: "Pacifico",
     color: "random-dark",
