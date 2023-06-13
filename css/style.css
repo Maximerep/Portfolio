@@ -1009,26 +1009,43 @@ height: 10%;
 .carousel-indicators li.active {
   background-color: #000;
 }
-.word-cloud {
-  width: 400px;
-  height: 300px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
+#word-cloud {
+  width: 600px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  position: relative;
+  overflow: hidden;
 }
 
-.word {
-  font-size: 18px;
-  margin: 5px;
-  padding: 5px 10px;
-  background-color: #f2f2f2;
-  border-radius: 20px;
+#word-cloud canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#word-cloud .wordcloud-word {
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
   cursor: pointer;
 }
 
-.word:hover {
-  background-color: #c0c0c0;
-  color: white;
+#word-cloud .wordcloud-word:hover {
+  font-weight: bold;
 }
+
+#word-cloud .wordcloud-tooltip {
+  position: absolute;
+  display: none;
+  padding: 8px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+#word-cloud .wordcloud-word:hover + .wordcloud-tooltip {
+  display: block;
+}
+
 }/*# sourceMappingURL=style.css.map */
