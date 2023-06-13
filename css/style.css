@@ -1017,7 +1017,7 @@ height: 10%;
 #wordcloud {
   width: 800px;
   height: 500px;
-  background-color: #fff;
+  background-color: rgba(240, 240, 240, 0.8);
   border: 1px solid #ccc;
   border-radius: 4px;
   overflow: hidden;
