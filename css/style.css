@@ -1010,43 +1010,24 @@ height: 10%;
 .carousel-indicators li.active {
   background-color: #000;
 }
-#word-cloud {
-  width: 600px;
-  height: 400px;
-  margin: 0 auto;
-  background-color: #f2f2f2;
-  position: relative;
-  overflow: hidden;
-}
-
-#word-cloud canvas {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-#word-cloud .wordcloud-word {
-  font-family: "Arial", sans-serif;
-  font-size: 14px;
-  cursor: pointer;
-}
-
-#word-cloud .wordcloud-word:hover {
-  font-weight: bold;
-}
-
-#word-cloud .wordcloud-tooltip {
-  position: absolute;
-  display: none;
-  padding: 8px;
-  background-color: rgba(0, 0, 0, 0.8);
-  color: #fff;
-  font-size: 12px;
+#wordcloud {
+  width: 800px;
+  height: 500px;
+  background-color: #fff;
+  border: 1px solid #ccc;
   border-radius: 4px;
+  overflow: hidden;
+  position: relative;
 }
 
-#word-cloud .wordcloud-word:hover + .wordcloud-tooltip {
-  display: block;
+.wordcloud-word {
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+  transition: font-size 0.3s;
+}
+
+.wordcloud-word:hover {
+  font-size: 24px;
 }
 
 }/*# sourceMappingURL=style.css.map */
