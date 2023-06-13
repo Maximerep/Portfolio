@@ -575,6 +575,9 @@ li h3 {
   transform: rotateY(180deg);
   background-color: rgba(240, 240, 240, 0.8)
 }
+.portfolioCard:hover .flip-content {
+  background-color: rgba(240, 240, 240, 0.8);
+}
 
 .portfolioCard-header {
   text-align: center;
