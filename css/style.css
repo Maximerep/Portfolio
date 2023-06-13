@@ -1022,16 +1022,47 @@ height: 10%;
   border-radius: 4px;
   overflow: hidden;
   position: relative;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .wordcloud-word {
   font-family: Arial, sans-serif;
   cursor: pointer;
-  transition: font-size 0.3s;
+  transition: font-size 0.3s, color 0.3s;
 }
 
 .wordcloud-word:hover {
   font-size: 24px;
+  color: #ff4081;
+  transform: scale(1.1);
+}
+
+.wordcloud-word:hover::after {
+  content: attr(data-weight);
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 14px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  pointer-events: none;
 }
 
 }/*# sourceMappingURL=style.css.map */
