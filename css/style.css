@@ -844,6 +844,7 @@ li h3 {
 @media (max-width: 700px) {
   #home_status {
     font-size: 4vw;
+    font-family: "Pacifico", cursive;
   }
   #home_name {
     font-size: 7vw;
@@ -1015,15 +1016,14 @@ height: 10%;
   background-color: #000;
 }
 
-.h10 {
+h10 {
   margin-bottom: 5px;
   font-family: "Kurale";
   cursor: default;
   text-decoration: none;
   color: rgb(255,127,80); /* Texte en orange */
 }
-.h10-spacer-under {
-  margin-bottom: 15px;
-}
+
+
 
 }/*# sourceMappingURL=style.css.map */
