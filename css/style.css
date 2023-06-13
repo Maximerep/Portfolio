@@ -647,6 +647,7 @@ li h3 {
           backface-visibility: hidden;
   display: flex;
   flex-direction: column;
+  z-index: 1; /* Ajout de la propriété z-index */
 }
 .flip-image > img {
   width: 90%;
