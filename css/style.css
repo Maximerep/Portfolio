@@ -1024,11 +1024,10 @@ h10 {
   color: rgb(255,127,80); /* Texte en orange */
 }
 
-.tiltephotos{
+.tiltephotos {
   font-family: "Kurale";
   cursor: default;
   text-decoration: none;
-  color: rgb(0, 0, 0); /* Texte en orange */
+  color: rgb(0, 0, 0); /* Texte en noir */
 }
-
 }/*# sourceMappingURL=style.css.map */
