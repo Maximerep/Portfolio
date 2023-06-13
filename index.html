@@ -484,9 +484,9 @@
 	  						<span class='portfolioCard-spacer'></span>
 	  						<div class='portfolioCard-footer'>
 	  							<ul class='portfolioCard-footer-list'>
-	  								<li class='htmlCaps'></li>
-	  								<li class='phpCaps'></li>
-	  								<li class='sqlCaps'></li>
+	  								<li class='htmlCaps'>Comptabilité</li>
+	  								<li class='phpCaps'>Finance</li>
+	  								<li class='sqlCaps'>Analyse</li>
 	  							</ul>
 	  						</div>
 	  					</div>
@@ -694,10 +694,36 @@
 	<script src="js/d3.min.js" charset="utf-8"></script>
 	<script src="js/wordcloud2.js"></script>
 	<style>
-	  #wordcloud {
-		width: 800px;
-		height: 500px;
-	  }
+	     #wordcloud {
+        width: 800px;
+        height: 500px;
+      }
+
+      .wordcloud-word {
+        font-family: Arial, sans-serif;
+        cursor: pointer;
+        transition: font-size 0.3s, color 0.3s;
+      }
+
+      .wordcloud-word:hover {
+        font-size: 24px;
+        color: #ff4081;
+        transform: scale(1.1);
+      }
+
+      .wordcloud-word:hover::after {
+        content: attr(data-weight);
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 14px;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        padding: 4px 8px;
+        border-radius: 4px;
+        pointer-events: none;
+      }
 	</style>
   </head>
   <body>
