@@ -1,9 +1,14 @@
 // Définir les mots-clés et leur fréquence
 var words = [
-    { text: "Design", weight: 10 },
-    { text: "Développement web", weight: 8 },
-    { text: "Photographie", weight: 6 },
-    { text: "UI/UX", weight: 7 },
+    { text: "Cylcisme", weight: 10 },
+    { text: "Trail", weight: 8 },
+    { text: "Badminton", weight: 9 },
+    { text: "Marche", weight: 7 },
+    { text: "Les échecs", weight: 7 },
+    { text: "Lecture", weight: 4 },
+    { text: "Sortir avec des amis", weight: 8 },
+    { text: "Musique", weight: 6 }
+
     // Ajoutez plus de mots-clés avec leurs fréquences
   ];
   
@@ -16,14 +21,15 @@ var words = [
     weightFactor: 5,
     fontFamily: "Arial, sans-serif",
     color: "random-dark",
-    backgroundColor: "#fff",
+    backgroundColor: "#DBDBDB",
     rotateRatio: 0.5,
     shape: "circle",
     ellipticity: 0.65,
     shuffle: true,
     hover: function(item) {
       // Action lorsqu'un mot est survolé
-      console.log(item);
+      item.element.style.fontSize = '24px';
+      item.element.style.color = '#ff4081';
     },
     click: function(item) {
       // Action lorsqu'un mot est cliqué

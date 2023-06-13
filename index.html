@@ -694,41 +694,21 @@
 	<script src="js/d3.min.js" charset="utf-8"></script>
 	<script src="js/wordcloud2.js"></script>
 	<style>
-	     #wordcloud {
-        width: 800px;
-        height: 500px;
-      }
-
-      .wordcloud-word {
-        font-family: Arial, sans-serif;
-        cursor: pointer;
-        transition: font-size 0.3s, color 0.3s;
-      }
-
-      .wordcloud-word:hover {
-        font-size: 24px;
-        color: #ff4081;
-        transform: scale(1.1);
-      }
-
-      .wordcloud-word:hover::after {
-        content: attr(data-weight);
-        position: absolute;
-        top: 100%;
-        left: 50%;
-        transform: translateX(-50%);
-        font-size: 14px;
-        background-color: rgba(0, 0, 0, 0.8);
-        color: #fff;
-        padding: 4px 8px;
-        border-radius: 4px;
-        pointer-events: none;
-      }
+		#wordcloud {
+  width: 800px;
+  height: 500px;
+  background-color: rgba(240, 240, 240, 0.8);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);}
 	</style>
   </head>
   <body>
 	<div id="wordcloud"></div>
-  
 	<script src="js/script.js"></script>
   </body>
   <h4 >Ma passion pour le sport en extérieur, vélo, trail et marche en quelques photos ..."</h4>
