@@ -9,10 +9,10 @@ var words = [
     { text: "Sortir avec des amis", weight: 8 },
     { text: "Ecouter de la musique", weight: 6 },
     { text: "", weight: 6 },
-    { text: "Découvrir des nouveaux paysages", weight: 7 },
+    { text: "Admirer le paysages", weight: 7 },
     { text: "Sport", weight: 9 },
     { text: "Apprendre de nouvelles choses", weight: 6 },
-    { text: "cusine", weight: 3 },
+    { text: "cuisine", weight: 3 },
 
 
     // Ajoutez plus de mots-clés avec leurs fréquences
