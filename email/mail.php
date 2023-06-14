@@ -1,6 +1,6 @@
 <?php
 // Inclure le fichier d'autoloader de PHPMailer
-require 'email.PHPMailer.php';
+require 'email/PHPMailer.php';
 
 // Créer une nouvelle instance de PHPMailer
 $mail = new PHPMailer\PHPMailer\PHPMailer();
