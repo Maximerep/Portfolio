@@ -8,7 +8,7 @@ var words = [
     { text: "Lecture", weight: 4 },
     { text: "Sortir avec des amis", weight: 8 },
     { text: "Ecouter de la musique", weight: 6 },
-    { text: "", weight: 6 },
+    { text: "Photographie", weight: 6 },
     { text: "Admirer le paysages", weight: 7 },
     { text: "Sport", weight: 9 },
     { text: "Apprendre de nouvelles choses", weight: 6 },
