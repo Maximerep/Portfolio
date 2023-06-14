@@ -805,28 +805,24 @@
 	  			</div>
 	  			<div class='row'>
 		  			<div class='col-sm'>
-		  				<form id="contact_form" action="email/mail.php" method='post'>
+						<h1>Formulaire de contact</h1>
+						<form method="post" action="email/mail.php">
 							<p>
-								<label for="nom" class='hidden'>Votre nom</label>
-								<input class='input_contact' type="text" name="nom" id="nom" placeholder="Votre nom">
+								<label for="nom">Votre nom :</label>
+								<input type="text" name="nom" id="nom" required>
 							</p>
 							<p>
-								<label for="email" class='hidden'>Votre mail</label>
-								<input class='input_contact' type="email" name="email" id="email" placeholder="Votre mail">
+								<label for="email">Votre e-mail :</label>
+								<input type="email" name="email" id="email" required>
 							</p>
 							<p>
-								<label for="message">Message</label>
-								<textarea id="message" name="message" rows='9'></textarea>
+								<label for="message">Message :</label>
+								<textarea name="message" id="message" rows="5" required></textarea>
 							</p>
 							<p>
+								<input type="submit" value="Envoyer">
 							</p>
-							<div id="sendBtnContact">
-								<span class="contact_caps tenDRotated" id='bg_contact_sendBtn'></span>
-								<input class="contact_caps" type="submit" id="contact_sendBtn" value="Envoyer"/>
-							</div>	
-							<div id="mail_statut">
-								<p id="mail_statut_success" class="mail_alert alert-success hidden">Votre message a été envoyé avec succès ! Merci !</p>
-								<p id="mail_statut_error" class="mail_alert alert-danger hidden">Une erreur est survenue, merci de bien renseigner tous les champs</p>
+						</form>
 							</div>
 							<!--<div>
 								<p data-nw-id-target='gdpr_p' id='gdpr_btn' class="js_toggle_btn helpBtn">Données personnelles</p>
