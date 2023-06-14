@@ -806,10 +806,10 @@
 	  			<div class='row'>
 		  			<div class='col-sm'>
 						<h1>Formulaire de contact</h1>
-						<form method="post" action="email/mail.php">
+						<form id="contact_form" method="post" action="email/mail.php">
 							<p>
-								<label for="nom">Votre nom :</label>
-								<input type="text" name="nom" id="nom" required>
+								<label for="nom" class="hidden">Votre nom :</label>
+								<input class="input_contact" type="text" name="nom" id="nom" placeholder="Votre nom" required>
 							</p>
 							<p>
 								<label for="email">Votre e-mail :</label>
