@@ -10,8 +10,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Par exemple, envoyer un e-mail ou enregistrer les données dans une base de données
 
     // Exemple d'envoi d'e-mail de notification
-    $destinataire = 'votre-email@example.com';
-    $sujet = 'Nouveau message de contact';
+    $destinataire = 'max.repincay@gmail.com';
+    $sujet = 'Nouveau message de contact portfolio';
     $contenu = "Nom: $nom\n";
     $contenu .= "Email: $email\n";
     $contenu .= "Message: $message\n";

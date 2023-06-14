@@ -799,24 +799,24 @@
 	  		<div class='container-fluid screenCenterContent max-w-1400'>
 	  			<div class='row'>
 	  				<div class='col text-center' id='getintouch'>
-	  					<p>Mon profil vous intéresse-t-il ?</p> 
+	  					<p>Mon profil vous intéresse ?</p> 
 	  					<p>N'hésitez à me contacter !</p>
 	  				</div>	  				
 	  			</div>
 	  			<div class='row'>
 		  			<div class='col-sm'>
-		  				<form id="contact_form" action="email/maimr.php" method='post'>
+		  				<form id="contact_form" action="email/mail.php" method='post'>
+							<p>
+								<label for="nom" class='hidden'>Votre nom</label>
+								<input class='input_contact' type="text" name="nom" id="nom" placeholder="Votre nom">
+							</p>
 							<p>
 								<label for="email" class='hidden'>Votre mail</label>
 								<input class='input_contact' type="email" name="email" id="email" placeholder="Votre mail">
 							</p>
 							<p>
-								<label for="object" class='hidden'>Objet</label>
-								<input class='input_contact' type="text" name="object" id="object" placeholder="Objet">
-							</p>
-							<p>
-								<label for="msg">Message</label>
-								<textarea id="msg" name="msg" rows='9'></textarea>
+								<label for="message">Message</label>
+								<textarea id="message" name="message" rows='9'></textarea>
 							</p>
 							<p>
 							</p>
@@ -825,7 +825,7 @@
 								<input class="contact_caps" type="submit" id="contact_sendBtn" value="Envoyer"/>
 							</div>	
 							<div id="mail_statut">
-								<p id="mail_statut_success" class="mail_alert alert-success hidden">Mail envoyé avec succès ! Je vous contacterai dans la semaine</p>
+								<p id="mail_statut_success" class="mail_alert alert-success hidden">Votre message a été envoyé avec succès ! Merci !</p>
 								<p id="mail_statut_error" class="mail_alert alert-danger hidden">Une erreur est survenue, merci de bien renseigner tous les champs</p>
 							</div>
 							<!--<div>
