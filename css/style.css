@@ -1030,4 +1030,7 @@ h10 {
   text-decoration: none;
   color: rgb(0, 0, 0); /* Texte en noir */
 }
+.text-center {
+  text-align: center;
+}
 }/*# sourceMappingURL=style.css.map */
