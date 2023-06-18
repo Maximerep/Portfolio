@@ -13,6 +13,8 @@ var words = [
     { text: "Sport", weight: 9 },
     { text: "Apprendre de nouvelles choses", weight: 6 },
     { text: "cuisine", weight: 3 },
+    { text: "paysage", weight:6 },
+
 
 
     // Ajoutez plus de mots-clés avec leurs fréquences
