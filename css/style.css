@@ -1034,3 +1034,36 @@ h10 {
   text-align: center;
 }
 }/*# sourceMappingURL=style.css.map */
+.loisir-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.loisir-item {
+  position: relative;
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  overflow: hidden;
+}
+
+.loisir-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hover-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.loisir-item:hover .hover-text {
+  opacity: 1;
+}
