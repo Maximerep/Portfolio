@@ -707,6 +707,18 @@
 	<title>Nuage de mots interactif</title>
 	<script src="js/d3.min.js" charset="utf-8"></script>
 	<script src="js/wordcloud2.js"></script>
+	<script>
+		// Create a wordcloud using the provided wordcloud2.js library
+		var wordcloud = new WordCloud("#wordcloud");
+	
+		// Attach an event listener to each word element
+		wordcloud.words.forEach(function(word) {
+		  word.element.addEventListener("click", function() {
+			// Add your desired elements here, such as pop-ups, animations, or additional information
+			alert("Vous avez cliqué sur le mot : " + word.text);
+		  });
+		});
+	  </script>
 	<style>
 		#wordcloud {
   width: 900px;
